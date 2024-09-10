@@ -1,5 +1,6 @@
 Feature: To validate login functionality
 
+@smoke @regression @sprint
 Scenario: To validate login using valid credentials
 
 Given user starts "chrome" browser
@@ -9,7 +10,7 @@ And user enters text "reyaz123" in textbox using xpath "//input[@name='password'
 And user clicks button using xpath "//input[@name='login']"
 Then user validates title to be "Adactin.com - Search Hotel"
 
-
+@regression @sprint
 Scenario Outline: To validate login using Invalid credentials
 
 Given user starts "chrome" browser

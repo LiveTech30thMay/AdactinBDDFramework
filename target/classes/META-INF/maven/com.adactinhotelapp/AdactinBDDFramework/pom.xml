@@ -27,5 +27,10 @@
 </dependency>
 
 
+  	<dependency>
+  		<groupId>com.adactinhotelapp</groupId>
+  		<artifactId>AdactinHybridFramework</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 </project>
